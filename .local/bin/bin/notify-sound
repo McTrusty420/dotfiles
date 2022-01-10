@@ -1,0 +1,3 @@
+#!/bin/bash
+
+paplay ~/.local/sounds/scifi.wav --volume=32768
