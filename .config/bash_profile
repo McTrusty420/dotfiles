@@ -1,0 +1,13 @@
+#
+# ~/.bash_profile
+#
+
+[[ -f ~/.bashrc ]] && . ~/.bashrc
+
+picom &
+xinput --disable 17
+#feh --bg-fill ~/Downloads/cyberpunk.png
+wal -i ~/Downloads/astronaut.png
+dwmblocks &
+dunst &
+#import PS1="\[\033[33m\][\[\033[36m\]\u\[\033[31m\]@\[\033[32m\]\h\[\033[33m\]]\[\033[33;35m\]\w\[\033[m\]\$ "
